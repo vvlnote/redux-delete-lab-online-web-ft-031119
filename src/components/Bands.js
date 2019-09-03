@@ -9,7 +9,7 @@ class Bands extends Component {
   		return <Band key={i} id={band.id} name={band.name} deleteBand={this.props.deleteBand}/>
   		})
 		return(
-			<div> 
+			<div>
 			{bands}
 			</div>
 			)
