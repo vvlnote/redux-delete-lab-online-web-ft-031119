@@ -3,7 +3,6 @@ import Band from './Band';
 import { connect } from 'react-redux';
 
 class Bands extends Component {
-
 	render() {
   	console.log(this.props.bands);
   	let bands = this.props.bands.map((band, i) => {
